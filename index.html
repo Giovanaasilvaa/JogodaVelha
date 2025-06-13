@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="icon" href="assets/imagens/icon.png" type="192x192">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1> <br>
+    <div class="game-mode">
+        <button class="two-player">Jogador vs Jogador</button>
+        <button class="player-vs-ai">Jogador vs Robô</button>
+    </div>
+    
+  
+    <div class="game-container" style="display: none;">
+        <div class="game">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <p class="status">Vez do jogador X</p>
+        <div class="creator-container">
+            <p>Criado por: Giovana Marques Silva</p>
+        </div>
+        <button class="reset">Reiniciar Jogo</button>
+        <button class="back-to-menu">Voltar ao Menu</button> 
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
